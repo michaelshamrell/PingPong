@@ -2,7 +2,7 @@
 
 x = gets.chomp.to_i
 1.upto(x) do |x|
-  if x % 3 == 0 && x % 5 == 0
+  if x % 15 == 0 
     puts "Pingpong"
   elsif x % 3 == 0 
     puts "Ping"
